@@ -1,0 +1,31 @@
+
+{
+    "HEADER": {
+        "ERROR_CODE": "20021",
+        "ERROR_DESC": "Payer Enrolment Successful"
+    },
+    "BODY": {
+        "DO_QUICK_TOPUP_RESPONSE": {
+            "TOPUP": {
+                "STATUS": "PE",
+                "TDS_PAREQ": "eNpVUk1TwjAQvedXdDg7TVILNMySGRBBVAQRxfFW0h0o0hZCC9Rfb1q+NKd9uztv970NTBYasfOGKtMoYYDbrT9HKwyaFe5nmzzxXvtfTO/SgxiLH1aRMGqNcSNhh3obJrHkNrMdoGdIDIVWCz9OJfhq0+6/SFc4gjGgJ0ggQt3vyLorPGYKpwf0mCYQ+xHK51z5UTILV2j1UEd+nFu9aLYAWlYJqCSLU51Lz6kBPQMCmV7JRZquG5Tu93t7dWGxVWJn30CLBgL0uuQoK6Kt0X4IAzmYdrn6XO2G3e7jdNnOg3jsDj/6VVy2mkCLDgKBn6J0GBeMs7rFRIPVG47Zv8wTMAPNNvL+fSxuhDCyj5jAupjUOiJRVP4mjKJMa4xVLkXdM5LOiAAe1kmMpsfYfImNhuvmdw+F2So19t3uJkJ3a/MnL3nyeNWteVWHuYzzWnGAsqVkDI1dRgMvKcPSO1rQ0NN56eknmOjfD/kFINW0rw==",
+                "TDS_ACSURL": "https://netsafe.hdfcbank.com/ACSWeb/com.enstage.entransact.servers.AccessControlServerSSL?ty=V",
+                "RESPONSE_CODE": "20021",
+                "REDORDER_ID": "LG0001567064",
+                "TRANSCTION_ID": "MQT0000105338",
+                "FACE_VALUE": "9.99",
+                "RESPONSE_MESSAGE": "Payer Enrolment Successful",
+                "ECHO_DATA": {}
+            },
+            "TRANSATION_DETAILES": {
+                "MSISDN": "4915211970610",
+                "AMOUNT": "9.9900",
+                "REFERENCE_NUMBER": "MQT0000105338"
+            },
+            "ITG_TRANSACTION_ID": "ITG000000015894954",
+            "CHANNEL_TRANSACTION_ID": "dc8ff57361",
+            "PAYMENT_RESPONSE": {},
+            "APM_RESPONSE": {}
+        }
+    }
+}

@@ -92,6 +92,8 @@ return true;
 			    <option value="SWI">Swiss</option>
 			    <option value="PL">Poland</option>
 			 	<option value="PT">Portugal</option>
+				<option value="IE">Ireland</option>
+				<option value="RU">Russia</option>
                             <option value="others">Others</option>
 						</select>
 					</div>

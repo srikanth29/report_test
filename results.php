@@ -1700,6 +1700,240 @@ else
    }
 
 }
+elseif($country=='IE')
+{
+  
+ date_default_timezone_set("Europe/Berlin");
+    $table_log = "log_ie";
+   $to = date("Y-m-d H:i:s");
+
+   if ( $startd!=null&&$endd!=null )
+   {
+    $from=$startd;
+    $to=$endd;
+   }
+   elseif($startd==null&&$endd==null&&$interval!=null)
+   {
+
+      if ($interval=='-5 mins')
+  {
+
+  $from = date("Y-m-d H:i:s", time() - 60 * 5);
+}
+elseif($interval=='-10 mins')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 10);
+
+}
+elseif($interval=='-15 mins')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 15);
+
+}
+elseif($interval=='-30 mins')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 30);
+
+}
+elseif($interval=='-45 mins')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 45);
+
+}
+elseif($interval=='-1 hours')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 60);
+
+}
+elseif($interval=='-2 hours')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 120);
+
+}
+elseif($interval=='-4 hours')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 240);
+
+}
+
+elseif($interval=='-6 hours')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 360);
+
+}
+
+elseif($interval=='-12 hours')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 720);
+
+}
+
+elseif($interval=='-24 hours')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 1440);
+
+}
+elseif($interval=='-2 days')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 2880);
+
+}
+elseif($interval=='-3 days')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 4320);
+
+}
+elseif($interval=='-5 days')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 7200);
+
+}
+elseif($interval=='-7 days')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 10080);
+
+}
+elseif($interval=='-14 days')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 20160);
+
+}
+elseif($interval=='-30 days')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 43200);
+
+}
+else
+{
+
+}
+
+
+   }
+
+   else{
+
+
+   }
+
+}
+elseif($country=='RU')
+{
+  
+ date_default_timezone_set("UTC");
+    $table_log = "log_ru";
+   $to = date("Y-m-d H:i:s");
+
+   if ( $startd!=null&&$endd!=null )
+   {
+    $from=$startd;
+    $to=$endd;
+   }
+   elseif($startd==null&&$endd==null&&$interval!=null)
+   {
+
+      if ($interval=='-5 mins')
+  {
+
+  $from = date("Y-m-d H:i:s", time() - 60 * 5);
+}
+elseif($interval=='-10 mins')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 10);
+
+}
+elseif($interval=='-15 mins')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 15);
+
+}
+elseif($interval=='-30 mins')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 30);
+
+}
+elseif($interval=='-45 mins')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 45);
+
+}
+elseif($interval=='-1 hours')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 60);
+
+}
+elseif($interval=='-2 hours')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 120);
+
+}
+elseif($interval=='-4 hours')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 240);
+
+}
+
+elseif($interval=='-6 hours')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 360);
+
+}
+
+elseif($interval=='-12 hours')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 720);
+
+}
+
+elseif($interval=='-24 hours')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 1440);
+
+}
+elseif($interval=='-2 days')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 2880);
+
+}
+elseif($interval=='-3 days')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 4320);
+
+}
+elseif($interval=='-5 days')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 7200);
+
+}
+elseif($interval=='-7 days')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 10080);
+
+}
+elseif($interval=='-14 days')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 20160);
+
+}
+elseif($interval=='-30 days')
+{
+  $from = date("Y-m-d H:i:s", time() - 60 * 43200);
+
+}
+else
+{
+
+}
+
+
+   }
+
+   else{
+
+
+   }
+
+}
 else
 {
 echo "please select valid country";
